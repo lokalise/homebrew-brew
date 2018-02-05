@@ -1,11 +1,11 @@
 class Lokalise < Formula
   desc "Lokalise CLI Tool - API client binary"
-  homepage "http://docs.lokalise.co/article/44l4f1hiZM-lokalise-cli-tool"
+  homepage "https://docs.lokalise.co/api-and-cli/lokalise-cli-tool"
 
-  version "0.44"
-  sha256 "78b98a1a4964c205aac22caf62791d6c1e3b79413a1784c5d295475285a41715"
+  version "0.45"
+  sha256 "4686d8faccd31a29e1c3207f4e4bcdf5266327665562de02cfe575e9748b14b6"
 
-  url "https://s3-eu-west-1.amazonaws.com/lokalise-assets/cli/lokalise-0.44-darwin-amd64.tgz"
+  url "https://s3-eu-west-1.amazonaws.com/lokalise-assets/cli/lokalise-0.45-darwin-amd64.tgz"
 
   def install
     bin.install "lokalise"
